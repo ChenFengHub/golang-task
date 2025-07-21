@@ -1,0 +1,15 @@
+# 二进制文件
+bin/
+dist/
+
+# 依赖管理
+vendor/
+go.sum
+
+# 测试文件
+*.test
+coverage.txt
+
+# 环境文件
+.env
+.vscode/

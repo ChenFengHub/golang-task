@@ -13,3 +13,4 @@ coverage.txt
 # 环境文件
 .env
 .vscode/
+launch.json

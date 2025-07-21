@@ -12,7 +12,7 @@ func main() {
 	numArr := []int{4, 4, 1, 2, 1, 2, 100}
 	matchNum, err := findRepeatOnceNum(numArr)
 	if err == nil {
-		fmt.Println("题目1:%v中只出现一次的数字是:", numArr, matchNum)
+		fmt.Printf("题目1:%v中只出现一次的数字是:%v\n", numArr, matchNum)
 	} else {
 		fmt.Printf("题目1:%v数组中未找到只出现一次元素,err:%v\n", numArr, err)
 	}

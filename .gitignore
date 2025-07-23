@@ -14,3 +14,8 @@ coverage.txt
 .env
 .vscode/
 launch.json
+
+--debug_bin*
+
+# Debug binary files
+__debug_bin*
